@@ -1,6 +1,6 @@
-# QuantumDataDAO
+# Submission Draft (Replace with name)
 
-## Introduction
+## Documentation
 
 Welcome to QuantumDataDAO, the largested compiled source of private and public databases being used to accelerate the progress of hybrid and pure quantum machine learning research. Our mission is to build a collaborative ecosystem for researchers and builders to pursue innovation in the field of quantum computing without the restriction of data access. We encourage labs and those with quantum data to contribute their data to be used for training in our hybrid quantum engine subnets at SiriusQ.
 
