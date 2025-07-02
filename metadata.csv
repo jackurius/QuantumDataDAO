@@ -1,2 +1,6 @@
 label, datapath
-type1, features/example1.txt
+X, features/X.npy
+T, features/T.npy
+P, features/P.npy
+R, features/R.npy
+Z, features/Z.npy

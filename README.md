@@ -1,25 +1,20 @@
-# Submission Draft (Replace with name)
-
-## Documentation
-
-Add documentation for your dataset here. This README file is what will be available to subnets when looking for datasets and to community members when voting for dataset inclusion into the DAO.
-
-Upload your raw data into the features folder in it's original format. If possible, organise it into different files, with the file paths to certain features being denoted in the metadata file. The metadata file should be similar to a .csv file or something queryable, returning the file path based on certain features being requested. How the data is labelled and organised should be made clear in the documentation section of your submission. The features folder and metadata file with NOT be shared with community and subnets.
-
-Guidelines to submissions can be found in the [main](https://github.com/jackurius/QuantumDataDAO/tree/main) branch. Once your submission is ready, make a pull request to merge into the main branch.
-
-Suggested Sections (submission documentation can be formatted in any way):
+# QM7 Quantum Chemistry Dataset
 
 ### Introduction
-Brief introduction to the dataset and yourself.
+This dataset is the public dataset QM7 from [this](http://quantum-machine.org/datasets/) group of datasets, which includes quantum data simulated by the [FHI group](https://www.fhi.mpg.de/th-department) at the Max Planck Institute.
 
 ### Data Gathering
-Detailed description of how the data is gathered.
+The QM7 dataset is a small portion of the GDB-13 dataset, containing all molecules of up to 23 atoms (including 7 heavy atoms C, N, O, and S), totalling 7165 molecules. We provide the Coulomb matrix representation of these molecules and their atomization energies computed similarly to the FHI-AIMS implementation of the Perdew-Burke-Ernzerhof hybrid functional (PBE0).
 
 ### Data Formatting
-Complete description of how the data is formatted, and how the data is labelled in the metadata file (if applicable).
+The data is split into 5 separate features (matrices) saved as numpy arrays. The 5 matrices are labelled as follows:
+- X (7165 x 23 x 23) - The Coulomb matrices
+- T (7165) - The atomization energies
+- P (5 x 1433) - Splits for cross-validation
+- Z (7165) - Atomic charge
+- R (7165 x 3) - Cartesian coordinates of each atom in the molecules
+
 
 ### Application
-What types of hybrid machine learning models benefit the most from this type of data, and its intended field of application.
-
+This dataset is aimed to be used in the field of quantum chemistry, particularly targeting the esimation of atomization energies given the structure of chemical molecules.
 
