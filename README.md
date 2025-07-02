@@ -25,7 +25,7 @@ Depending on the subnets usage of your data, you will be rewarded with a proport
 This includes only a very small sample of possible datasets the DAO would benefit from holding. As each submission is reviewed independently, we encourage everyone to submit an application for any datasets they think fit into our criteria.
 
 ### Submission Components
-1. **Format**: Data submitted can be in its raw form, as it will be refined for subnet training
+1. **Raw Data**: Data submitted can be in its raw form, as it will be refined for subnet training
 2. **Documentation**: Include comprehensive documentation explaining how the data was gathered, how the raw data is organised and also its application and intended field of research. This will be made public to subnets, acting as an advert for your data
 5. **Metadata file**: A file containing data paths for features that may be labelled. Depends on the complexity and how the data is organised in its raw form
 
