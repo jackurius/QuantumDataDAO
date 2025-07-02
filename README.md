@@ -58,6 +58,5 @@ N/A
 
 ## Contact
 
-- **Discord**: [Join our Discord server](n/A)
 - **Email**: info@siriusquantum.com
-- **Twitter**: [@QuantumDataDAO](N/A)
+- **Twitter**: [@QuantumDataDAO](https://x.com/SiriusQuantum)
