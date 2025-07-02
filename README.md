@@ -2,6 +2,6 @@
 
 ## Documentation
 
-Add documentation for your dataset here. This is what will be available to subnets when looking for datasets and to community members when voting for dataset inclusion into the DAO.
+Add documentation for your dataset here. This README file is what will be available to subnets when looking for datasets and to community members when voting for dataset inclusion into the DAO.
 
 Guidelines to submissions can be found in the [main](https://github.com/jackurius/QuantumDataDAO/tree/main) branch. Once your submission is ready, make a pull request to merge into the main branch. 
